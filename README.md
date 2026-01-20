@@ -271,8 +271,9 @@ cd frontend && npm test
 
 ## Authors
 
-ADSP Project Team 
-Kuchkorov Temur
-Parpikhodjaev Javokhirbek
-Ejaz Nida
+**ADSP Project Team**  
 University of Turin / Politecnico di Torino
+
+- **Kuchkorov Temur**
+- **Parpikhodjaev Javokhirbek**
+- **Ejaz Nida**
