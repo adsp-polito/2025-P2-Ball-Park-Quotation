@@ -271,5 +271,8 @@ cd frontend && npm test
 
 ## Authors
 
-Advanced Data Science Program (ADSP) Project Team
+ADSP Project Team 
+Kuchkorov Temur
+Parpikhodjaev Javokhirbek
+Ejaz Nida
 University of Turin / Politecnico di Torino
