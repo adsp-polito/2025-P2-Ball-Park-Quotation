@@ -1,0 +1,142 @@
+[
+  {
+    "cluster": "New Engine HW",
+    "example": "Nuovo componente hardware del motore, nuova turbo, etc.."
+  },
+  {
+    "cluster": "New ECM",
+    "example": "New Engine Control Module, cambio chip, porting ECU, etc\u2026"
+  },
+  {
+    "cluster": "New ATS",
+    "example": "Nuovo componente hardware after-treatment system, nuovi sensori, etc\u2026"
+  },
+  {
+    "cluster": "New SW",
+    "example": "Nuovo SW, nuovo dataset"
+  },
+  {
+    "cluster": "Performance - Power/Torque",
+    "example": "Miglioramento prestazioni"
+  },
+  {
+    "cluster": "New model",
+    "example": "Nuovo veicolo"
+  },
+  {
+    "cluster": "New market",
+    "example": "Nuovo mercato"
+  },
+  {
+    "cluster": "Regulation",
+    "example": "Cambio normativo, cambio emissivo legato a un nuovo mercato"
+  },
+  {
+    "cluster": "OBD",
+    "example": "On-board-diagnosis change"
+  },
+  {
+    "cluster": "Service interval change",
+    "example": "Cambio maintenance interval (e.g. nuovo HW fuel filter che porta da 500h a 1000h la service)"
+  },
+  {
+    "cluster": "Self-diagnosis",
+    "example": "Routine di service"
+  },
+  {
+    "cluster": "E/E architecture",
+    "example": "Nuova architettura da 1-box a 2-box"
+  },
+  {
+    "cluster": "Innovation",
+    "example": null
+  },
+  {
+    "cluster": "Digital Transformation",
+    "example": "Change in E/E architecture (1box, 2box), new CAN from 250k to 500kbps, new Cluster (phoenix, VIS, etc\u2026)"
+  },
+  {
+    "cluster": "Local fuel compatibility",
+    "example": "Richiesta di compatibilita' con fuel locale per nuovi mercati (e.g. Cile, Colombia)"
+  },
+  {
+    "cluster": "New fuel",
+    "example": "e.g. B20 fuel, ethanol"
+  },
+  {
+    "cluster": "Sustainability",
+    "example": "Include le richieste che mirano a rendere i prodotti pi\u00f9 sostenibili dal punto di vista ambientale, come l'uso di materiali riciclati o la riduzione delle emissioni."
+  },
+  {
+    "cluster": "Cost Reduction",
+    "example": "Include le richieste che mirano a ridurre i costi di produzione o di esercizio."
+  },
+  {
+    "cluster": "Quality Improvement",
+    "example": "Comprende le richieste volte a migliorare la qualit\u00e0 del prodotto, riducendo i difetti o aumentando l'affidabilit\u00e0."
+  },
+  {
+    "cluster": "Safety Enhancements",
+    "example": "Comprende le richieste volte a migliorare la sicurezza del prodotto, sia per gli utenti finali che per gli operatori."
+  },
+  {
+    "cluster": "Supply Chain",
+    "example": "nuovo packaging, plant relocation"
+  },
+  {
+    "cluster": "Functional safety",
+    "example": null
+  },
+  {
+    "cluster": "Cybersecurity",
+    "example": null
+  },
+  {
+    "cluster": "Features",
+    "example": null
+  },
+  {
+    "cluster": "Power/torque curves",
+    "example": "[c/o; new]"
+  },
+  {
+    "cluster": "Engine Hardware",
+    "example": "[c/o; new]"
+  },
+  {
+    "cluster": "ATS Hardware",
+    "example": "[c/o; new]"
+  },
+  {
+    "cluster": "Engine new part number",
+    "example": "[0,1,\u2026]"
+  },
+  {
+    "cluster": "Engine Installation Check",
+    "example": null
+  },
+  {
+    "cluster": "E/E architecture",
+    "example": null
+  },
+  {
+    "cluster": "Bench Calibration [ATS layout]",
+    "example": null
+  },
+  {
+    "cluster": "Bench Calibration [DeNOx]",
+    "example": null
+  },
+  {
+    "cluster": "Application Sign-off",
+    "example": "[derived, full]"
+  },
+  {
+    "cluster": "Homologation",
+    "example": "[EPA/CARB; ECE; China NRIV; etc\u2026]"
+  },
+  {
+    "cluster": "Engine reference",
+    "example": null
+  }
+]

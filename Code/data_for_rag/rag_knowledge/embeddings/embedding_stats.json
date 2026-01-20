@@ -1,0 +1,13 @@
+{
+  "total_documents": 270,
+  "by_type": {
+    "product_request": 33,
+    "feature_definition": 50,
+    "product": 22,
+    "cluster": 35,
+    "sizing_rule": 45,
+    "activity": 54,
+    "product_request_full": 16,
+    "rd_output_pptx": 15
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "app": {
+    "name": "FPT Cost Brain",
+    "version": "2.0",
+    "tagline": "Stima Costi R&D Basata su AI"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "newEstimation": "Nuova Stima",
+    "history": "Storico",
+    "knowledge": "Knowledge Base",
+    "settings": "Impostazioni",
+    "logout": "Esci"
+  },
+  "auth": {
+    "login": "Accedi",
+    "logout": "Esci",
+    "email": "Email",
+    "password": "Password",
+    "forgotPassword": "Password dimenticata?",
+    "loginButton": "Accedi",
+    "loggingIn": "Accesso in corso...",
+    "loginError": "Email o password non validi"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Bentornato",
+    "recentEstimates": "Stime Recenti",
+    "accuracy": "Accuratezza Modello",
+    "totalEstimates": "Stime Totali",
+    "avgAccuracy": "Accuratezza Media",
+    "monthlyTrend": "Trend Mensile",
+    "quickActions": "Azioni Rapide"
+  },
+  "estimation": {
+    "title": "Stima Costi",
+    "newEstimation": "Nuova Stima",
+    "steps": {
+      "upload": "Carica PR",
+      "qa": "Domande",
+      "summary": "Riepilogo",
+      "estimation": "Stima",
+      "review": "Revisione & Export"
+    },
+    "upload": {
+      "title": "Carica Product Request",
+      "description": "Carica il file Excel PR per iniziare il processo di stima",
+      "dragDrop": "Trascina il file qui, o clicca per sfogliare",
+      "supportedFormats": "Formati supportati: .xls, .xlsx",
+      "uploading": "Caricamento...",
+      "processing": "Elaborazione..."
+    },
+    "qa": {
+      "title": "Domande di Chiarimento",
+      "description": "Rispondi a queste domande per migliorare l'accuratezza della stima",
+      "required": "Obbligatorio",
+      "optional": "Facoltativo",
+      "answered": "risposte",
+      "skipQuestion": "Salta",
+      "submitAnswers": "Continua"
+    },
+    "summary": {
+      "title": "Riepilogo PR",
+      "description": "Rivedi le informazioni estratte",
+      "programFamily": "Famiglia Programma",
+      "customer": "Cliente",
+      "complexity": "Complessità",
+      "similarProjects": "Progetti Simili",
+      "keyFeatures": "Caratteristiche Principali"
+    },
+    "breakdown": {
+      "title": "Dettaglio Costi",
+      "activityCode": "Codice",
+      "activityName": "Attività",
+      "hours": "Ore",
+      "rate": "Tariffa (EUR)",
+      "cost": "Costo (EUR)",
+      "confidence": "Confidenza",
+      "total": "Totale",
+      "edit": "Modifica",
+      "save": "Salva",
+      "cancel": "Annulla"
+    },
+    "review": {
+      "title": "Revisione & Export",
+      "description": "Rivedi la stima e apporta le modifiche finali",
+      "editHours": "Modifica Ore",
+      "reason": "Motivo della modifica",
+      "export": "Esporta",
+      "exportPptx": "Esporta PPTX",
+      "exportXlsx": "Esporta Excel",
+      "exportBundle": "Esporta Tutto"
+    }
+  },
+  "chat": {
+    "title": "Assistente AI",
+    "placeholder": "Chiedimi qualsiasi cosa su questa stima...",
+    "send": "Invia",
+    "suggestions": "Suggerimenti",
+    "thinking": "Sto pensando..."
+  },
+  "history": {
+    "title": "Storico Stime",
+    "search": "Cerca PR...",
+    "filters": "Filtri",
+    "noResults": "Nessuna stima trovata",
+    "viewDetails": "Vedi Dettagli",
+    "compare": "Confronta"
+  },
+  "knowledge": {
+    "title": "Knowledge Base",
+    "acronyms": "Acronimi",
+    "documents": "Documenti",
+    "addAcronym": "Aggiungi Acronimo",
+    "editAcronym": "Modifica Acronimo",
+    "deleteAcronym": "Elimina Acronimo"
+  },
+  "settings": {
+    "title": "Impostazioni",
+    "description": "Gestisci il tuo account e le preferenze",
+    "profile": {
+      "title": "Profilo",
+      "description": "Aggiorna le tue informazioni personali",
+      "fullName": "Nome Completo",
+      "email": "Email",
+      "role": "Ruolo",
+      "save": "Salva Modifiche"
+    },
+    "preferences": {
+      "title": "Preferenze",
+      "description": "Personalizza la tua esperienza",
+      "language": "Lingua",
+      "theme": "Tema",
+      "themeLight": "Chiaro",
+      "themeDark": "Scuro",
+      "themeSystem": "Sistema",
+      "notifications": "Notifiche",
+      "emailNotifications": "Notifiche Email"
+    },
+    "security": {
+      "title": "Sicurezza",
+      "description": "Gestisci la password e le impostazioni di sicurezza",
+      "changePassword": "Cambia Password",
+      "currentPassword": "Password Attuale",
+      "newPassword": "Nuova Password",
+      "confirmPassword": "Conferma Password",
+      "update": "Aggiorna Password"
+    },
+    "saved": "Impostazioni salvate con successo",
+    "error": "Impossibile salvare le impostazioni"
+  },
+  "common": {
+    "loading": "Caricamento...",
+    "error": "Errore",
+    "success": "Successo",
+    "cancel": "Annulla",
+    "save": "Salva",
+    "delete": "Elimina",
+    "edit": "Modifica",
+    "close": "Chiudi",
+    "confirm": "Conferma",
+    "back": "Indietro",
+    "next": "Avanti",
+    "search": "Cerca",
+    "noData": "Nessun dato disponibile",
+    "retry": "Riprova"
+  },
+  "errors": {
+    "generic": "Qualcosa è andato storto. Riprova.",
+    "network": "Errore di rete. Controlla la connessione.",
+    "unauthorized": "Sessione scaduta. Effettua nuovamente l'accesso.",
+    "notFound": "Risorsa non trovata.",
+    "validation": "Controlla i dati inseriti."
+  }
+}

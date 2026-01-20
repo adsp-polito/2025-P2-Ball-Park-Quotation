@@ -1,0 +1,233 @@
+[
+  {
+    "code": "A1",
+    "function": "Project Management",
+    "description": "Project Management",
+    "effort_manpower": 2800,
+    "effort_bench_dev": null,
+    "effort_bench_special": null,
+    "effort_bench_dur": null,
+    "effort_vehicle": null,
+    "investment_keur": 296.4528000000001
+  },
+  {
+    "code": "A1",
+    "function": "Cost engineering",
+    "description": "Cost evaluation",
+    "effort_manpower": 1000,
+    "effort_bench_dev": null,
+    "effort_bench_special": null,
+    "effort_bench_dur": null,
+    "effort_vehicle": null,
+    "investment_keur": 61.277699999999996
+  },
+  {
+    "code": "A2",
+    "function": "Design & Release",
+    "description": "BOM update and drawings realase; DVP execution",
+    "effort_manpower": 21000,
+    "effort_bench_dev": null,
+    "effort_bench_special": null,
+    "effort_bench_dur": null,
+    "effort_vehicle": null,
+    "investment_keur": 1234.1000000000001
+  },
+  {
+    "code": "F",
+    "function": "Tech Service & Documentation",
+    "description": "",
+    "effort_manpower": 0,
+    "effort_bench_dev": null,
+    "effort_bench_special": null,
+    "effort_bench_dur": null,
+    "effort_vehicle": null,
+    "investment_keur": 0
+  },
+  {
+    "code": "A2",
+    "function": "Virtual Validation",
+    "description": "",
+    "effort_manpower": 3200,
+    "effort_bench_dev": null,
+    "effort_bench_special": null,
+    "effort_bench_dur": null,
+    "effort_vehicle": null,
+    "investment_keur": 258.56325
+  },
+  {
+    "code": "A3",
+    "function": "Aftertreatment, Mat & Fluids",
+    "description": "",
+    "effort_manpower": 1380,
+    "effort_bench_dev": null,
+    "effort_bench_special": null,
+    "effort_bench_dur": null,
+    "effort_vehicle": null,
+    "investment_keur": 86.11614
+  },
+  {
+    "code": "A4",
+    "function": "Control Sytems & Software",
+    "description": "",
+    "effort_manpower": 3500,
+    "effort_bench_dev": null,
+    "effort_bench_special": null,
+    "effort_bench_dur": null,
+    "effort_vehicle": null,
+    "investment_keur": 242.373
+  },
+  {
+    "code": "A4",
+    "function": "Software & Analytics Lab",
+    "description": "",
+    "effort_manpower": 0,
+    "effort_bench_dev": null,
+    "effort_bench_special": null,
+    "effort_bench_dur": null,
+    "effort_vehicle": null,
+    "investment_keur": 0
+  },
+  {
+    "code": "B1-C",
+    "function": "OBD",
+    "description": "",
+    "effort_manpower": 3000,
+    "effort_bench_dev": 0,
+    "effort_bench_special": null,
+    "effort_bench_dur": null,
+    "effort_vehicle": null,
+    "investment_keur": 263.65200000000004
+  },
+  {
+    "code": "B1",
+    "function": "CP&E",
+    "description": "Test bench activities, analysis and report release; Bench setup; functional tests, scuffing; ",
+    "effort_manpower": 11716,
+    "effort_bench_dev": 4260,
+    "effort_bench_special": 320,
+    "effort_bench_dur": null,
+    "effort_vehicle": null,
+    "investment_keur": 3138.366442
+  },
+  {
+    "code": "B2",
+    "function": "Reliability",
+    "description": "Camshast, cylinder head and block validation",
+    "effort_manpower": null,
+    "effort_bench_dev": null,
+    "effort_bench_special": null,
+    "effort_bench_dur": 9190,
+    "effort_vehicle": null,
+    "investment_keur": 1897.735
+  },
+  {
+    "code": "C",
+    "function": "Application Engineering",
+    "description": "",
+    "effort_manpower": 15250,
+    "effort_bench_dev": null,
+    "effort_bench_special": null,
+    "effort_bench_dur": null,
+    "effort_vehicle": null,
+    "investment_keur": 1026.8415
+  },
+  {
+    "code": "D3",
+    "function": "Vehicles",
+    "description": "PEMS",
+    "effort_manpower": null,
+    "effort_bench_dev": null,
+    "effort_bench_special": null,
+    "effort_bench_dur": null,
+    "effort_vehicle": 1,
+    "investment_keur": 32
+  },
+  {
+    "code": "D1 + D2",
+    "function": "Tech Certification",
+    "description": "",
+    "effort_manpower": 560,
+    "effort_bench_dev": 1200,
+    "effort_bench_special": null,
+    "effort_bench_dur": 2900,
+    "effort_vehicle": null,
+    "investment_keur": 1236.17944
+  },
+  {
+    "code": "B3",
+    "function": "Prototype",
+    "description": "Procurement and activity before/after Test bench",
+    "effort_manpower": 240,
+    "effort_bench_dev": null,
+    "effort_bench_special": null,
+    "effort_bench_dur": null,
+    "effort_vehicle": null,
+    "investment_keur": 29.39616
+  },
+  {
+    "code": "B3",
+    "function": "Materials",
+    "description": "16 Engines 7 proto camshafts, and materials; ",
+    "effort_manpower": null,
+    "effort_bench_dev": null,
+    "effort_bench_special": null,
+    "effort_bench_dur": null,
+    "effort_vehicle": null,
+    "investment_keur": 1150
+  },
+  {
+    "code": "B2",
+    "function": "Laboratories",
+    "description": "CRF analysis, before and after tests",
+    "effort_manpower": 620,
+    "effort_bench_dev": null,
+    "effort_bench_special": null,
+    "effort_bench_dur": null,
+    "effort_vehicle": null,
+    "investment_keur": 55.72157
+  },
+  {
+    "code": "E",
+    "function": "Contracts / Supplier_B",
+    "description": "",
+    "effort_manpower": null,
+    "effort_bench_dev": null,
+    "effort_bench_special": null,
+    "effort_bench_dur": null,
+    "effort_vehicle": null,
+    "investment_keur": 628
+  },
+  {
+    "code": "E",
+    "function": "Contracts / others",
+    "description": "",
+    "effort_manpower": null,
+    "effort_bench_dev": null,
+    "effort_bench_special": null,
+    "effort_bench_dur": null,
+    "effort_vehicle": null,
+    "investment_keur": 330
+  },
+  {
+    "code": "E",
+    "function": "Fees",
+    "description": "",
+    "effort_manpower": null,
+    "effort_bench_dev": null,
+    "effort_bench_special": null,
+    "effort_bench_dur": null,
+    "effort_vehicle": null,
+    "investment_keur": 880
+  },
+  {
+    "code": null,
+    "function": "Others (Travels, Dataloggers, etc)",
+    "description": "",
+    "effort_manpower": null,
+    "effort_bench_dev": null,
+    "effort_bench_special": null,
+    "effort_bench_dur": null,
+    "effort_vehicle": null,
+    "investment_keur": 10
+  }
+]

@@ -1,0 +1,156 @@
+[
+  {
+    "product_type": "ENGINE",
+    "product_line": "E9C0",
+    "sector": "AG",
+    "global_platform": "Crop Harvesting",
+    "machine": "Coffee Harvester"
+  },
+  {
+    "product_type": "ENGINE",
+    "product_line": "E1C1",
+    "sector": "AG",
+    "global_platform": "Crop Harvesting",
+    "machine": "Conventional Combine"
+  },
+  {
+    "product_type": "ENGINE",
+    "product_line": "E1C3",
+    "sector": "AG",
+    "global_platform": "Crop Harvesting",
+    "machine": "Cotton Harvester"
+  },
+  {
+    "product_type": "ENGINE",
+    "product_line": "E1C3TST",
+    "sector": "AG",
+    "global_platform": "Crop Harvesting",
+    "machine": "Flagship Harvester combine"
+  },
+  {
+    "product_type": "ENGINE",
+    "product_line": "E1C6",
+    "sector": "AG",
+    "global_platform": "Crop Harvesting",
+    "machine": "Grape Harvester"
+  },
+  {
+    "product_type": "ENGINE",
+    "product_line": "E1C6TST",
+    "sector": "AG",
+    "global_platform": "Crop Harvesting",
+    "machine": "Midrange Conventional Combine"
+  },
+  {
+    "product_type": "ENGINE",
+    "product_line": "E2F8",
+    "sector": "AG",
+    "global_platform": "Crop Harvesting",
+    "machine": "Midrange Rotary Combine"
+  },
+  {
+    "product_type": "ENGINE",
+    "product_line": "E3F2",
+    "sector": "AG",
+    "global_platform": "Crop Harvesting",
+    "machine": "Next Generation Combine"
+  },
+  {
+    "product_type": "ENGINE",
+    "product_line": "E3F4",
+    "sector": "AG",
+    "global_platform": "Crop Harvesting",
+    "machine": "Straddle"
+  },
+  {
+    "product_type": "ENGINE",
+    "product_line": "E3F6",
+    "sector": "AG",
+    "global_platform": "Crop Harvesting",
+    "machine": "Sugarcane Harvester"
+  },
+  {
+    "product_type": "ENGINE",
+    "product_line": "E8S0",
+    "sector": "AG",
+    "global_platform": "Crop Harvesting",
+    "machine": "Value line Combine"
+  },
+  {
+    "product_type": "ENGINE",
+    "product_line": "E4N0",
+    "sector": "AG",
+    "global_platform": "Crop Production, Hay & Forage",
+    "machine": "Combo"
+  },
+  {
+    "product_type": "ENGINE",
+    "product_line": "E6N0",
+    "sector": "AG",
+    "global_platform": "Crop Production, Hay & Forage",
+    "machine": "Floater"
+  },
+  {
+    "product_type": "ENGINE",
+    "product_line": "E6N0NG",
+    "sector": "AG",
+    "global_platform": "Crop Production, Hay & Forage",
+    "machine": "Forage Harvester"
+  },
+  {
+    "product_type": "ENGINE",
+    "product_line": "E2V0",
+    "sector": "AG",
+    "global_platform": "Crop Production, Hay & Forage",
+    "machine": "Miller Nitro Sprayer"
+  },
+  {
+    "product_type": "ATS",
+    "product_line": "DOC_only",
+    "sector": "AG",
+    "global_platform": "Crop Production, Hay & Forage",
+    "machine": "Sprayer"
+  },
+  {
+    "product_type": "ATS",
+    "product_line": "DOC_DPF",
+    "sector": "AG",
+    "global_platform": "Crop Production, Hay & Forage",
+    "machine": "Windrower"
+  },
+  {
+    "product_type": "ATS",
+    "product_line": "DOC_SCR",
+    "sector": "AG",
+    "global_platform": "Large Tractor",
+    "machine": "4WD Tractor"
+  },
+  {
+    "product_type": "ATS",
+    "product_line": "DOC_SCRoF",
+    "sector": "AG",
+    "global_platform": "Large Tractor",
+    "machine": "Cash Crop High Tractor"
+  },
+  {
+    "product_type": "ATS",
+    "product_line": "DOC_SCR-T",
+    "sector": "AG",
+    "global_platform": "Large Tractor",
+    "machine": "Tractors"
+  },
+  {
+    "product_type": "ATS",
+    "product_line": "SCR_only",
+    "sector": "AG",
+    "global_platform": "Small/Medium Tractors",
+    "machine": "All Purpose High Tractor"
+  },
+  {
+    "product_type": "ATS",
+    "product_line": "TWC",
+    "sector": "AG",
+    "global_platform": "Small/Medium Tractors",
+    "machine": "All Purpose Low Tractor"
+  }
+]

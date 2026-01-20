@@ -1,0 +1,272 @@
+[
+  {
+    "function": "Product Engineering",
+    "sub_function": "Base Engine",
+    "development_effort": "New concept required;\nHigh level of New Content (NC);\nNew serviceability req.s;\nHigh validation effort.",
+    "sizing": "Full"
+  },
+  {
+    "function": "Product Engineering",
+    "sub_function": "Base Engine",
+    "development_effort": "Heavy modification of existing concepts or serviceability req.s  with impact on manufacturing process;\nHigh/Medium level of NC;\nHigh/Medium validation effort.",
+    "sizing": "Large"
+  },
+  {
+    "function": "Product Engineering",
+    "sub_function": "Base Engine",
+    "development_effort": "Medium modification of existing concepts or serviceability req.s (no impact on manufacturing process);\nMedium level of NC; \nMedium validation effort.",
+    "sizing": "Medium"
+  },
+  {
+    "function": "Product Engineering",
+    "sub_function": "Base Engine",
+    "development_effort": "Light modification of existing product;\nLow level of NC; \nLow validation effort.",
+    "sizing": "Small"
+  },
+  {
+    "function": "Product Engineering",
+    "sub_function": "Base Engine",
+    "development_effort": "Minimum modification of existing product (only adaptation);\nMinimum level of NC;\nNo validation effort.",
+    "sizing": "X-small"
+  },
+  {
+    "function": "Product Engineering",
+    "sub_function": "System (engine+ATS)",
+    "development_effort": "New concept required;\nHigh level of New Content (NC);\nNew serviceability req.s;\nHigh validation effort.",
+    "sizing": "Full"
+  },
+  {
+    "function": "Product Engineering",
+    "sub_function": "System (engine+ATS)",
+    "development_effort": "Heavy modification of existing concepts or serviceability req.s  with impact on manufacturing process;\nHigh/Medium level of NC;\nHigh/Medium validation effort.",
+    "sizing": "Large"
+  },
+  {
+    "function": "Product Engineering",
+    "sub_function": "System (engine+ATS)",
+    "development_effort": "Medium modification of existing concepts or serviceability req.s (no impact on manufacturing process);\nMedium level of NC; \nMedium validation effort.",
+    "sizing": "Medium"
+  },
+  {
+    "function": "Product Engineering",
+    "sub_function": "System (engine+ATS)",
+    "development_effort": "Light modification of existing product;\nLow level of NC; \nLow validation effort.",
+    "sizing": "Small"
+  },
+  {
+    "function": "Product Engineering",
+    "sub_function": "System (engine+ATS)",
+    "development_effort": "Minimum modification of existing product (only adaptation);\nMinimum level of NC;\nNo validation effort.",
+    "sizing": "X-small"
+  },
+  {
+    "function": "Product Engineering",
+    "sub_function": "Installation/ Application / Homologation",
+    "development_effort": "First installation;\nNew SW & Cals; \nNew Emission Stage;\nRGT",
+    "sizing": "Full"
+  },
+  {
+    "function": "Product Engineering",
+    "sub_function": "Installation/ Application / Homologation",
+    "development_effort": "Medium Installation effort;\nMedium Cals review;\nHomologation;\nRGT.",
+    "sizing": "Large"
+  },
+  {
+    "function": "Product Engineering",
+    "sub_function": "Installation/ Application / Homologation",
+    "development_effort": "Medium installation effort;\nMedium Cals Review; \nHomologation; \nRGT",
+    "sizing": "Medium"
+  },
+  {
+    "function": "Product Engineering",
+    "sub_function": "Installation/ Application / Homologation",
+    "development_effort": "Low installation effort;\nLimited Cals Review;\nHomologation; ",
+    "sizing": "Small"
+  },
+  {
+    "function": "Product Engineering",
+    "sub_function": "Installation/ Application / Homologation",
+    "development_effort": "Minimum installation \nMinimum Cals. effort;\nNo homologation",
+    "sizing": "X-small"
+  },
+  {
+    "function": "Manufacturing",
+    "sub_function": "Plant - base engine",
+    "development_effort": "Manuf. Class: AA;\nManuf. Project Score: 250-1000",
+    "sizing": "Full"
+  },
+  {
+    "function": "Manufacturing",
+    "sub_function": "Plant - base engine",
+    "development_effort": "Manuf. Class: A;\nManuf. Project Score: 50-250",
+    "sizing": "Large"
+  },
+  {
+    "function": "Manufacturing",
+    "sub_function": "Plant - base engine",
+    "development_effort": "Manuf. Class: B;\nManuf. Project Score: 5-50",
+    "sizing": "Medium"
+  },
+  {
+    "function": "Manufacturing",
+    "sub_function": "Plant - base engine",
+    "development_effort": "Manuf. Class: B;\nManuf. Project Score: 5-50",
+    "sizing": "Small"
+  },
+  {
+    "function": "Manufacturing",
+    "sub_function": "Plant - base engine",
+    "development_effort": "Manuf. Class: C;\nManuf. Project Score: <5",
+    "sizing": "X-small"
+  },
+  {
+    "function": "Manufacturing",
+    "sub_function": "Plant - ATS",
+    "development_effort": "Manuf. Class: AA;\nManuf. Project Score: 250-1000",
+    "sizing": "Full"
+  },
+  {
+    "function": "Manufacturing",
+    "sub_function": "Plant - ATS",
+    "development_effort": "Manuf. Class: A;\nManuf. Project Score: 50-250",
+    "sizing": "Large"
+  },
+  {
+    "function": "Manufacturing",
+    "sub_function": "Plant - ATS",
+    "development_effort": "Manuf. Class: B;\nManuf. Project Score: 5-50",
+    "sizing": "Medium"
+  },
+  {
+    "function": "Manufacturing",
+    "sub_function": "Plant - ATS",
+    "development_effort": "Manuf. Class: B;\nManuf. Project Score: 5-50",
+    "sizing": "Small"
+  },
+  {
+    "function": "Manufacturing",
+    "sub_function": "Plant - ATS",
+    "development_effort": "Manuf. Class: C;\nManuf. Project Score: <5",
+    "sizing": "X-small"
+  },
+  {
+    "function": "Purchasing",
+    "sub_function": "Sourcing",
+    "development_effort": "# Parts in New Sourcing: High;\nTooling Lead Time: High.",
+    "sizing": "Full"
+  },
+  {
+    "function": "Purchasing",
+    "sub_function": "Sourcing",
+    "development_effort": "# Parts in New Sourcing: Medium;\nTooling Lead Time: Medium.",
+    "sizing": "Large"
+  },
+  {
+    "function": "Purchasing",
+    "sub_function": "Sourcing",
+    "development_effort": "# Parts in New Sourcing: \nMedium/Low\nTooling Lead Time: Low",
+    "sizing": "Medium"
+  },
+  {
+    "function": "Purchasing",
+    "sub_function": "Sourcing",
+    "development_effort": "No parts in new sourcing/ only modified:\nNo Tooling  ",
+    "sizing": "Small"
+  },
+  {
+    "function": "Purchasing",
+    "sub_function": "Sourcing",
+    "development_effort": "Minimum number of modified buy parts;\nNo Tooling ",
+    "sizing": "X-small"
+  },
+  {
+    "function": "Purchasing",
+    "sub_function": "Supplier Quality",
+    "development_effort": "# of new parts in APQP (4,5): High",
+    "sizing": "Full"
+  },
+  {
+    "function": "Purchasing",
+    "sub_function": "Supplier Quality",
+    "development_effort": "# of new parts in APQP (4,5): High/Medium",
+    "sizing": "Large"
+  },
+  {
+    "function": "Purchasing",
+    "sub_function": "Supplier Quality",
+    "development_effort": "# of new parts in APQP (4,5): Medium/Low",
+    "sizing": "Medium"
+  },
+  {
+    "function": "Purchasing",
+    "sub_function": "Supplier Quality",
+    "development_effort": "# of new parts in APQP (4,5): None",
+    "sizing": "Small"
+  },
+  {
+    "function": "Purchasing",
+    "sub_function": "Supplier Quality",
+    "development_effort": "# of new parts in APQP (4,5): None",
+    "sizing": "X-small"
+  },
+  {
+    "function": "Customer Manager",
+    "sub_function": "Build stages",
+    "development_effort": "All build stages required",
+    "sizing": "Full"
+  },
+  {
+    "function": "Customer Manager",
+    "sub_function": "Build stages",
+    "development_effort": "Beta, Gamma, PP, Pilot required",
+    "sizing": "Large"
+  },
+  {
+    "function": "Customer Manager",
+    "sub_function": "Build stages",
+    "development_effort": "Gamma, PP, Pilot required",
+    "sizing": "Medium"
+  },
+  {
+    "function": "Customer Manager",
+    "sub_function": "Build stages",
+    "development_effort": "PP, Pilot required",
+    "sizing": "Small"
+  },
+  {
+    "function": "Customer Manager",
+    "sub_function": "Build stages",
+    "development_effort": "Only Pilot required",
+    "sizing": "X-small"
+  },
+  {
+    "function": "Program Manager",
+    "sub_function": "Overall",
+    "development_effort": "Overall",
+    "sizing": "Full"
+  },
+  {
+    "function": "Program Manager",
+    "sub_function": "Overall",
+    "development_effort": "Overall",
+    "sizing": "Large"
+  },
+  {
+    "function": "Program Manager",
+    "sub_function": "Overall",
+    "development_effort": "Overall",
+    "sizing": "Medium"
+  },
+  {
+    "function": "Program Manager",
+    "sub_function": "Overall",
+    "development_effort": "Overall",
+    "sizing": "Small"
+  },
+  {
+    "function": "Program Manager",
+    "sub_function": "Overall",
+    "development_effort": "Overall",
+    "sizing": "X-small"
+  }
+]

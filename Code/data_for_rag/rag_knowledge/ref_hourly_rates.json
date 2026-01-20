@@ -1,0 +1,183 @@
+{
+  "version": "1.0",
+  "source": "Dataset/dataset-final.xlsx → DB_Hourly rate",
+  "description": "FPT standard hourly rates by function and bench type",
+
+  "manpower_rates": {
+    "1": {
+      "function": "Project Management",
+      "rate_eur_h": 89,
+      "category": "premium"
+    },
+    "2": {
+      "function": "Cost Engineering",
+      "rate_eur_h": 59,
+      "category": "standard"
+    },
+    "3": { "function": "Design", "rate_eur_h": 59, "category": "standard" },
+    "4": {
+      "function": "Basic technologies, Simulation, Virtual Validation",
+      "rate_eur_h": 59,
+      "category": "standard"
+    },
+    "5": {
+      "function": "Aftertreatment(ATS), Mat & Fluids",
+      "rate_eur_h": 59,
+      "category": "standard"
+    },
+    "6": {
+      "function": "Control System & Software (CS&SW; EMS)",
+      "rate_eur_h": 59,
+      "category": "standard"
+    },
+    "7": {
+      "function": "OBD & Diagnostics",
+      "rate_eur_h": 59,
+      "category": "standard"
+    },
+    "8": {
+      "function": "CP&E; Dev&Rel",
+      "rate_eur_h": 59,
+      "category": "standard"
+    },
+    "9": {
+      "function": "Testing / Endurance - Engine & ATS",
+      "rate_eur_h": 44,
+      "category": "testing"
+    },
+    "10": {
+      "function": "Application Engineering",
+      "rate_eur_h": 59,
+      "category": "standard"
+    },
+    "11": { "function": "Vehicle", "rate_eur_h": null, "category": "external" },
+    "12": {
+      "function": "Advanced Troubleshooting & Tech. Docu.",
+      "rate_eur_h": 89,
+      "category": "premium"
+    },
+    "13": {
+      "function": "Technical Certification",
+      "rate_eur_h": 59,
+      "category": "standard"
+    },
+    "14": {
+      "function": "Prototype",
+      "rate_eur_h": 106,
+      "category": "prototype"
+    },
+    "15": {
+      "function": "Materials & Travels",
+      "rate_eur_h": null,
+      "category": "external"
+    },
+    "16": {
+      "function": "Laboratories",
+      "rate_eur_h": null,
+      "category": "external"
+    },
+    "17": {
+      "function": "Contracts / Fees - Supplier_B",
+      "rate_eur_h": null,
+      "category": "contracts"
+    },
+    "18": {
+      "function": "Contracts / Fees - Other Suppliers",
+      "rate_eur_h": null,
+      "category": "contracts"
+    },
+    "19": {
+      "function": "Others (Travels, Dataloggers, contingencies)",
+      "rate_eur_h": null,
+      "category": "other"
+    }
+  },
+
+  "bench_rates_by_product_family": {
+    "E5F0": {
+      "durability": 146,
+      "development": 394,
+      "vehicle_pems": 107,
+      "special_rigs": 671
+    },
+    "E8S0": {
+      "durability": 146,
+      "development": 394,
+      "vehicle_pems": 107,
+      "special_rigs": 671
+    },
+    "E0N0": {
+      "durability": 163,
+      "development": 404,
+      "vehicle_pems": 107,
+      "special_rigs": 671
+    },
+    "E0V0": {
+      "durability": 302,
+      "development": 498,
+      "vehicle_pems": 107,
+      "special_rigs": 671
+    },
+    "E0C0": {
+      "durability": 217,
+      "development": 441,
+      "vehicle_pems": 107,
+      "special_rigs": 671
+    }
+  },
+
+  "rate_categories": {
+    "testing": {
+      "description": "High-volume testing activities",
+      "typical_rate": 44
+    },
+    "standard": {
+      "description": "Standard engineering functions",
+      "typical_rate": 59
+    },
+    "premium": {
+      "description": "Management and documentation",
+      "typical_rate": 89
+    },
+    "prototype": {
+      "description": "Prototype development",
+      "typical_rate": 106
+    },
+    "external": {
+      "description": "External costs, no hourly rate",
+      "typical_rate": null
+    },
+    "contracts": {
+      "description": "Supplier contracts, fixed price",
+      "typical_rate": null
+    }
+  },
+
+  "cost_drivers_analysis": {
+    "primary": "Manpower hours (r=0.900 with Total Cost)",
+    "secondary": "Bench Development hours (r=0.848)",
+    "top_cost_functions": [
+      { "function": "CP&E; Dev&Rel", "total_cost_ke": 20229 },
+      { "function": "Contracts / Fees - Supplier_B", "total_cost_ke": 10868 },
+      { "function": "Application Engineering", "total_cost_ke": 8777 },
+      { "function": "Technical Certification", "total_cost_ke": 6114 },
+      { "function": "Testing / Endurance", "total_cost_ke": 5361 }
+    ],
+    "top_hours_functions": [
+      { "function": "Application Engineering", "total_hours": 139922 },
+      { "function": "Design", "total_hours": 62768 },
+      { "function": "CP&E; Dev&Rel", "total_hours": 62128 },
+      { "function": "Project Management", "total_hours": 32288 },
+      { "function": "OBD & Diagnostics", "total_hours": 25193 }
+    ]
+  },
+
+  "usage_in_model": {
+    "cost_calculation": "Cost = Manpower_hrs × Manpower_rate + Bench_hrs × Bench_rate",
+    "feature_engineering": [
+      "weighted_manpower_hours: sum(hours × rate_weight)",
+      "bench_complexity: bench_dev_hrs / bench_dur_hrs",
+      "premium_function_ratio: premium_hrs / total_hrs"
+    ]
+  }
+}

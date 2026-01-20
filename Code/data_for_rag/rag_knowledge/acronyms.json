@@ -1,0 +1,122 @@
+{
+  "version": "2.0",
+  "source": "Dataset/csv_exports/ref_Acronym.csv",
+  "count": 23,
+  "acronyms": [
+    {
+      "acronym": "PR",
+      "definition": "Product Request",
+      "source": "ref_Acronym.csv"
+    },
+    {
+      "acronym": "ATS",
+      "definition": "After Treatment System",
+      "source": "ref_Acronym.csv"
+    },
+    {
+      "acronym": "Dev&Rel",
+      "definition": "Development & Reliability",
+      "source": "ref_Acronym.csv"
+    },
+    {
+      "acronym": "CP&E",
+      "definition": "Combustion, Performance & Emissions calibration",
+      "source": "ref_Acronym.csv"
+    },
+    {
+      "acronym": "CS&SW",
+      "definition": "Control System & Software",
+      "source": "ref_Acronym.csv"
+    },
+    {
+      "acronym": "EMS",
+      "definition": "Emission Monitoring System",
+      "source": "ref_Acronym.csv"
+    },
+    {
+      "acronym": "OBD",
+      "definition": "On Board Diagnosis",
+      "source": "ref_Acronym.csv"
+    },
+    {
+      "acronym": "BOM",
+      "definition": "Bill of material",
+      "source": "ref_Acronym.csv"
+    },
+    {
+      "acronym": "LWB",
+      "definition": "Long wheel base",
+      "source": "ref_Acronym.csv"
+    },
+    {
+      "acronym": "SWB",
+      "definition": "Short wheel base",
+      "source": "ref_Acronym.csv"
+    },
+    {
+      "acronym": "EBOM",
+      "definition": "Engine Bill of Material",
+      "source": "ref_Acronym.csv"
+    },
+    {
+      "acronym": "DMU",
+      "definition": "Digital Mock-up",
+      "source": "ref_Acronym.csv"
+    },
+    {
+      "acronym": "DTS",
+      "definition": "Dataset",
+      "source": "ref_Acronym.csv"
+    },
+    {
+      "acronym": "Matrix",
+      "definition": "Internal digital platform",
+      "source": "ref_Acronym.csv"
+    },
+    {
+      "acronym": "Theoretical code",
+      "definition": "Engine family type - identifies the engine homologation family",
+      "source": "ref_Acronym.csv"
+    },
+    {
+      "acronym": "CRF",
+      "definition": "Change Request Form",
+      "source": "ref_Acronym.csv"
+    },
+    {
+      "acronym": "FW",
+      "definition": "Flywheel",
+      "source": "ref_Acronym.csv"
+    },
+    {
+      "acronym": "DF",
+      "definition": "Deterioration Factor",
+      "source": "ref_Acronym.csv"
+    },
+    {
+      "acronym": "VBOM",
+      "definition": "Vehicle Bill of Material",
+      "source": "ref_Acronym.csv"
+    },
+    {
+      "acronym": "ROW",
+      "definition": "Rest of the world (market)",
+      "source": "ref_Acronym.csv"
+    },
+    {
+      "acronym": "VCU",
+      "definition": "Vehicle Control Unit",
+      "source": "ref_Acronym.csv"
+    },
+    {
+      "acronym": "EOL",
+      "definition": "Engine end of line",
+      "source": "ref_Acronym.csv"
+    },
+    {
+      "acronym": "TCO",
+      "definition": "total cost of ownership",
+      "source": "ref_Acronym.csv"
+    }
+  ]
+}

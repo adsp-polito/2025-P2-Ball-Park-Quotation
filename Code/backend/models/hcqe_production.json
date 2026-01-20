@@ -1,0 +1,82 @@
+{
+  "version": "8.2-autonomous",
+  "trained_at": "2026-01-20T18:01:12.079895",
+  "n_features": 27,
+  "feature_names": [
+    "ATS_change",
+    "calibration_change",
+    "hardware_change",
+    "software_VCU_change",
+    "application_tractor",
+    "power_increase_kw",
+    "torque_increase_nm",
+    "num_functions",
+    "emissions_level",
+    "num_affected_functions",
+    "pf_E0N0",
+    "pf_E5F0",
+    "pf_E0C0",
+    "pf_E8S0",
+    "pf_E0V0",
+    "ats_has_doc",
+    "ats_has_scr",
+    "ats_has_dpf",
+    "rd_type_encoded",
+    "is_new_engine",
+    "is_bom",
+    "is_homologation",
+    "is_ce",
+    "sizing_PE_base_score",
+    "sizing_PE_system_score",
+    "sizing_PE_install_score",
+    "sizing_program_score"
+  ],
+  "n_samples": 33,
+  "outputs": [
+    "hours",
+    "cost"
+  ],
+  "target_coverage": 0.9,
+  "hours_calibration": 990.398338334472,
+  "cost_calibration": 574.3735694629709,
+  "sizing_classifier_trained": true,
+  "metrics_loocv": {
+    "hours_manual": {
+      "mae": 1974.2568198906588,
+      "within_30_pct": 69.6969696969697
+    },
+    "cost_manual": {
+      "mae": 619.8379944653016,
+      "within_30_pct": 57.57575757575758
+    },
+    "hours_autonomous": {
+      "mae": 2236.7906880379605,
+      "within_30_pct": 66.66666666666666
+    },
+    "cost_autonomous": {
+      "mae": 619.3659602282933,
+      "within_30_pct": 57.57575757575758
+    },
+    "sizing_accuracy": 96.96969696969697
+  },
+  "baseline_comparison": {
+    "hours_within_30": 75.75757575757575,
+    "cost_within_30": 63.63636363636363
+  },
+  "lookup_tables": {
+    "hours": {
+      "0": 880,
+      "1": 4565,
+      "2": 7915,
+      "3": 19246,
+      "4": 33805
+    },
+    "cost": {
+      "0": 128,
+      "1": 731,
+      "2": 1098,
+      "3": 2845,
+      "4": 5580
+    }
+  }
+}

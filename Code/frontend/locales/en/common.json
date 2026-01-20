@@ -1,0 +1,175 @@
+{
+  "app": {
+    "name": "FPT Cost Brain",
+    "version": "2.0",
+    "tagline": "AI-Powered R&D Cost Estimation"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "newEstimation": "New Estimation",
+    "history": "History",
+    "knowledge": "Knowledge",
+    "settings": "Settings",
+    "logout": "Logout"
+  },
+  "auth": {
+    "login": "Login",
+    "logout": "Logout",
+    "email": "Email",
+    "password": "Password",
+    "forgotPassword": "Forgot password?",
+    "loginButton": "Sign In",
+    "loggingIn": "Signing in...",
+    "loginError": "Invalid email or password"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Welcome back",
+    "recentEstimates": "Recent Estimates",
+    "accuracy": "Model Accuracy",
+    "totalEstimates": "Total Estimates",
+    "avgAccuracy": "Avg Accuracy",
+    "monthlyTrend": "Monthly Trend",
+    "quickActions": "Quick Actions"
+  },
+  "estimation": {
+    "title": "Cost Estimation",
+    "newEstimation": "New Estimation",
+    "steps": {
+      "upload": "Upload PR",
+      "qa": "Q&A",
+      "summary": "Summary",
+      "estimation": "Estimation",
+      "review": "Review & Export"
+    },
+    "upload": {
+      "title": "Upload Product Request",
+      "description": "Upload your PR Excel file to begin the estimation process",
+      "dragDrop": "Drag and drop your file here, or click to browse",
+      "supportedFormats": "Supported formats: .xls, .xlsx",
+      "uploading": "Uploading...",
+      "processing": "Processing..."
+    },
+    "qa": {
+      "title": "Clarifying Questions",
+      "description": "Answer these questions to improve estimation accuracy",
+      "required": "Required",
+      "optional": "Optional",
+      "answered": "answered",
+      "skipQuestion": "Skip",
+      "submitAnswers": "Continue"
+    },
+    "summary": {
+      "title": "PR Summary",
+      "description": "Review the extracted information",
+      "programFamily": "Program Family",
+      "customer": "Customer",
+      "complexity": "Complexity",
+      "similarProjects": "Similar Projects",
+      "keyFeatures": "Key Features"
+    },
+    "breakdown": {
+      "title": "Cost Breakdown",
+      "activityCode": "Code",
+      "activityName": "Activity",
+      "hours": "Hours",
+      "rate": "Rate (EUR)",
+      "cost": "Cost (EUR)",
+      "confidence": "Confidence",
+      "total": "Total",
+      "edit": "Edit",
+      "save": "Save",
+      "cancel": "Cancel"
+    },
+    "review": {
+      "title": "Review & Export",
+      "description": "Review your estimation and make any final adjustments",
+      "editHours": "Edit Hours",
+      "reason": "Reason for change",
+      "export": "Export",
+      "exportPptx": "Export PPTX",
+      "exportXlsx": "Export Excel",
+      "exportBundle": "Export Bundle"
+    }
+  },
+  "chat": {
+    "title": "AI Assistant",
+    "placeholder": "Ask me anything about this estimation...",
+    "send": "Send",
+    "suggestions": "Suggestions",
+    "thinking": "Thinking..."
+  },
+  "history": {
+    "title": "Estimation History",
+    "search": "Search PRs...",
+    "filters": "Filters",
+    "noResults": "No estimations found",
+    "viewDetails": "View Details",
+    "compare": "Compare"
+  },
+  "knowledge": {
+    "title": "Knowledge Base",
+    "acronyms": "Acronyms",
+    "documents": "Documents",
+    "addAcronym": "Add Acronym",
+    "editAcronym": "Edit Acronym",
+    "deleteAcronym": "Delete Acronym"
+  },
+  "settings": {
+    "title": "Settings",
+    "description": "Manage your account and preferences",
+    "profile": {
+      "title": "Profile",
+      "description": "Update your personal information",
+      "fullName": "Full Name",
+      "email": "Email",
+      "role": "Role",
+      "save": "Save Changes"
+    },
+    "preferences": {
+      "title": "Preferences",
+      "description": "Customize your experience",
+      "language": "Language",
+      "theme": "Theme",
+      "themeLight": "Light",
+      "themeDark": "Dark",
+      "themeSystem": "System",
+      "notifications": "Notifications",
+      "emailNotifications": "Email Notifications"
+    },
+    "security": {
+      "title": "Security",
+      "description": "Manage your password and security settings",
+      "changePassword": "Change Password",
+      "currentPassword": "Current Password",
+      "newPassword": "New Password",
+      "confirmPassword": "Confirm Password",
+      "update": "Update Password"
+    },
+    "saved": "Settings saved successfully",
+    "error": "Failed to save settings"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "close": "Close",
+    "confirm": "Confirm",
+    "back": "Back",
+    "next": "Next",
+    "search": "Search",
+    "noData": "No data available",
+    "retry": "Retry"
+  },
+  "errors": {
+    "generic": "Something went wrong. Please try again.",
+    "network": "Network error. Please check your connection.",
+    "unauthorized": "Session expired. Please log in again.",
+    "notFound": "Resource not found.",
+    "validation": "Please check your input."
+  }
+}

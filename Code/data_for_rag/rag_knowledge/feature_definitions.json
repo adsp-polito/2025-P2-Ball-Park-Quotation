@@ -1,0 +1,502 @@
+[
+  {
+    "cluster": "ATS & Emissions",
+    "feature": "ATS_change",
+    "type": "Boolean",
+    "description": "ATS hardware or calibration modifications needed.",
+    "source": "auto_from_PR",
+    "decision_tree_question": "Is there any explicit request in the PR that implies ATS change?",
+    "derivation_method": "Scan the PR for component/feature keywords; set to 1 if clearly mentioned.",
+    "allowed_values": "0/1 (No/Yes)"
+  },
+  {
+    "cluster": "ATS & Emissions",
+    "feature": "ATS_impact",
+    "type": "Boolean",
+    "description": "ATS performance/behavior impacted (DOC/DPF/SCR).",
+    "source": "auto_from_PR",
+    "decision_tree_question": "Can ATS impact be inferred from the PR?",
+    "derivation_method": "Use domain-specific keywords and engineering judgement on the PR text.",
+    "allowed_values": "0/1 (No/Yes)"
+  },
+  {
+    "cluster": "ATS & Emissions",
+    "feature": "baseline_ATS_available",
+    "type": "Boolean",
+    "description": "Existing ATS configuration available for reuse.",
+    "source": "auto_from_PR",
+    "decision_tree_question": "Is there a reusable baseline (ATS available) available?",
+    "derivation_method": "Check internal databases / engineering knowledge; not always in PR.",
+    "allowed_values": "0/1 (No/Yes)"
+  },
+  {
+    "cluster": "ATS & Emissions",
+    "feature": "dataset_emission",
+    "type": "Boolean",
+    "description": "Emission certification dataset required.",
+    "source": "auto_from_PR",
+    "decision_tree_question": "Can dataset emission be inferred from the PR?",
+    "derivation_method": "Use domain-specific keywords and engineering judgement on the PR text.",
+    "allowed_values": "0/1 (No/Yes)"
+  },
+  {
+    "cluster": "ATS & Emissions",
+    "feature": "emission_level",
+    "type": "Categorical",
+    "description": "Required emission regulation (Stage V, T4F, NR, etc.).",
+    "source": "auto_from_PR",
+    "decision_tree_question": "Which emission level is requested for this project?",
+    "derivation_method": "Look for Stage/Tier level in the PR (e.g., Stage V, Tier 4F); if missing, request clarification.",
+    "allowed_values": "Domain-specific categorical value"
+  },
+  {
+    "cluster": "ATS & Emissions",
+    "feature": "regen_strategy_change",
+    "type": "Boolean",
+    "description": "Regeneration strategy update required.",
+    "source": "auto_from_PR",
+    "decision_tree_question": "Is there any explicit request in the PR that implies regen strategy change?",
+    "derivation_method": "Scan the PR for component/feature keywords; set to 1 if clearly mentioned.",
+    "allowed_values": "0/1 (No/Yes)"
+  },
+  {
+    "cluster": "ATS & Emissions",
+    "feature": "requires_emission_documentation",
+    "type": "Boolean",
+    "description": "Emission-specific documentation required.",
+    "source": "auto_from_PR",
+    "decision_tree_question": "Does the PR require emission documentation?",
+    "derivation_method": "Check PR for explicit mention of required tests/documents; set to 1 if required.",
+    "allowed_values": "0/1 (No/Yes)"
+  },
+  {
+    "cluster": "Application",
+    "feature": "application_WL",
+    "type": "Boolean",
+    "description": "Application is Wheel Loader.",
+    "source": "auto_from_PR",
+    "decision_tree_question": "Is the application WL?",
+    "derivation_method": "Look for application keywords like 'WL' in the PR description.",
+    "allowed_values": "0/1 (No/Yes)"
+  },
+  {
+    "cluster": "Application",
+    "feature": "application_excavator",
+    "type": "Boolean",
+    "description": "Application is Excavator.",
+    "source": "auto_from_PR",
+    "decision_tree_question": "Is the application EXCAVATOR?",
+    "derivation_method": "Look for application keywords like 'EXCAVATOR' in the PR description.",
+    "allowed_values": "0/1 (No/Yes)"
+  },
+  {
+    "cluster": "Application",
+    "feature": "application_harvester",
+    "type": "Boolean",
+    "description": "Application is Harvester.",
+    "source": "auto_from_PR",
+    "decision_tree_question": "Is the application HARVESTER?",
+    "derivation_method": "Look for application keywords like 'HARVESTER' in the PR description.",
+    "allowed_values": "0/1 (No/Yes)"
+  },
+  {
+    "cluster": "Application",
+    "feature": "application_sprayer",
+    "type": "Boolean",
+    "description": "Application is Sprayer.",
+    "source": "auto_from_PR",
+    "decision_tree_question": "Is the application SPRAYER?",
+    "derivation_method": "Look for application keywords like 'SPRAYER' in the PR description.",
+    "allowed_values": "0/1 (No/Yes)"
+  },
+  {
+    "cluster": "Application",
+    "feature": "application_tractor",
+    "type": "Boolean",
+    "description": "Application is Tractor.",
+    "source": "auto_from_PR",
+    "decision_tree_question": "Is the application TRACTOR?",
+    "derivation_method": "Look for application keywords like 'TRACTOR' in the PR description.",
+    "allowed_values": "0/1 (No/Yes)"
+  },
+  {
+    "cluster": "Calibration & Performance",
+    "feature": "NVH_target",
+    "type": "Boolean",
+    "description": "Noise/vibration/harshness improvement required.",
+    "source": "auto_from_PR",
+    "decision_tree_question": "Can NVH target be inferred from the PR?",
+    "derivation_method": "Use domain-specific keywords and engineering judgement on the PR text.",
+    "allowed_values": "0/1 (No/Yes)"
+  },
+  {
+    "cluster": "Calibration & Performance",
+    "feature": "calibration_change",
+    "type": "Boolean",
+    "description": "Calibration required (torque, smoke, transient, maps).",
+    "source": "auto_from_PR",
+    "decision_tree_question": "Is there any explicit request in the PR that implies calibration change?",
+    "derivation_method": "Scan the PR for component/feature keywords; set to 1 if clearly mentioned.",
+    "allowed_values": "0/1 (No/Yes)"
+  },
+  {
+    "cluster": "Calibration & Performance",
+    "feature": "cold_start_requirement",
+    "type": "Boolean",
+    "description": "Cold-start performance required.",
+    "source": "auto_from_PR",
+    "decision_tree_question": "Can cold start requirement be inferred from the PR?",
+    "derivation_method": "Use domain-specific keywords and engineering judgement on the PR text.",
+    "allowed_values": "0/1 (No/Yes)"
+  },
+  {
+    "cluster": "Calibration & Performance",
+    "feature": "emission_margin_improvement",
+    "type": "Boolean",
+    "description": "Need for tighter emission margins than baseline.",
+    "source": "auto_from_PR",
+    "decision_tree_question": "Can emission margin improvement be inferred from the PR?",
+    "derivation_method": "Use domain-specific keywords and engineering judgement on the PR text.",
+    "allowed_values": "0/1 (No/Yes)"
+  },
+  {
+    "cluster": "Calibration & Performance",
+    "feature": "fuel_consumption_target",
+    "type": "Boolean",
+    "description": "Fuel consumption improvement required.",
+    "source": "auto_from_PR",
+    "decision_tree_question": "Can fuel consumption target be inferred from the PR?",
+    "derivation_method": "Use domain-specific keywords and engineering judgement on the PR text.",
+    "allowed_values": "0/1 (No/Yes)"
+  },
+  {
+    "cluster": "Calibration & Performance",
+    "feature": "power_increase_kw",
+    "type": "Numeric",
+    "description": "Increase in engine power (kW) vs baseline.",
+    "source": "auto_from_PR",
+    "decision_tree_question": "What is the requested increase in power (kW) vs baseline?",
+    "derivation_method": "Extract numeric targets from PR (ratings); if not explicit, set to 0 or estimate manually.",
+    "allowed_values": "Numeric value"
+  },
+  {
+    "cluster": "Calibration & Performance",
+    "feature": "torque_increase_nm",
+    "type": "Numeric",
+    "description": "Increase in engine torque (Nm) vs baseline.",
+    "source": "auto_from_PR",
+    "decision_tree_question": "What is the requested increase in torque (Nm) vs baseline?",
+    "derivation_method": "Extract numeric targets from PR (ratings); if not explicit, set to 0 or estimate manually.",
+    "allowed_values": "Numeric value"
+  },
+  {
+    "cluster": "Calibration & Performance",
+    "feature": "transient_response_target",
+    "type": "Boolean",
+    "description": "Improved transient response requested.",
+    "source": "auto_from_PR",
+    "decision_tree_question": "Can transient response target be inferred from the PR?",
+    "derivation_method": "Use domain-specific keywords and engineering judgement on the PR text.",
+    "allowed_values": "0/1 (No/Yes)"
+  },
+  {
+    "cluster": "Dataset",
+    "feature": "dataset_additional_variants",
+    "type": "Boolean",
+    "description": "Extra dataset variants required.",
+    "source": "auto_from_PR",
+    "decision_tree_question": "Can dataset additional variants be inferred from the PR?",
+    "derivation_method": "Use domain-specific keywords and engineering judgement on the PR text.",
+    "allowed_values": "0/1 (No/Yes)"
+  },
+  {
+    "cluster": "Dataset",
+    "feature": "dataset_production",
+    "type": "Boolean",
+    "description": "Production dataset required.",
+    "source": "auto_from_PR",
+    "decision_tree_question": "Can dataset production be inferred from the PR?",
+    "derivation_method": "Use domain-specific keywords and engineering judgement on the PR text.",
+    "allowed_values": "0/1 (No/Yes)"
+  },
+  {
+    "cluster": "Dataset",
+    "feature": "dataset_prototype",
+    "type": "Boolean",
+    "description": "Prototype dataset required.",
+    "source": "auto_from_PR",
+    "decision_tree_question": "Can dataset prototype be inferred from the PR?",
+    "derivation_method": "Use domain-specific keywords and engineering judgement on the PR text.",
+    "allowed_values": "0/1 (No/Yes)"
+  },
+  {
+    "cluster": "Dataset",
+    "feature": "dataset_validation",
+    "type": "Boolean",
+    "description": "Validation dataset required.",
+    "source": "auto_from_PR",
+    "decision_tree_question": "Can dataset validation be inferred from the PR?",
+    "derivation_method": "Use domain-specific keywords and engineering judgement on the PR text.",
+    "allowed_values": "0/1 (No/Yes)"
+  },
+  {
+    "cluster": "Documentation",
+    "feature": "requires_installation_instructions_update",
+    "type": "Boolean",
+    "description": "Installation instruction update required.",
+    "source": "auto_from_PR",
+    "decision_tree_question": "Does the PR require installation instructions update?",
+    "derivation_method": "Check PR for explicit mention of required tests/documents; set to 1 if required.",
+    "allowed_values": "0/1 (No/Yes)"
+  },
+  {
+    "cluster": "Documentation",
+    "feature": "requires_technical_documentation",
+    "type": "Boolean",
+    "description": "Technical documentation required.",
+    "source": "auto_from_PR",
+    "decision_tree_question": "Does the PR require technical documentation?",
+    "derivation_method": "Check PR for explicit mention of required tests/documents; set to 1 if required.",
+    "allowed_values": "0/1 (No/Yes)"
+  },
+  {
+    "cluster": "Hardware & Subsystems",
+    "feature": "EGR_related",
+    "type": "Boolean",
+    "description": "EGR hardware or strategy impacted.",
+    "source": "auto_from_PR",
+    "decision_tree_question": "Is there any explicit request in the PR that implies EGR related?",
+    "derivation_method": "Scan the PR for component/feature keywords; set to 1 if clearly mentioned.",
+    "allowed_values": "0/1 (No/Yes)"
+  },
+  {
+    "cluster": "Hardware & Subsystems",
+    "feature": "baseline_hardware_available",
+    "type": "Boolean",
+    "description": "Existing hardware configuration available for reuse.",
+    "source": "auto_from_PR",
+    "decision_tree_question": "Is there a reusable baseline (hardware available) available?",
+    "derivation_method": "Check internal databases / engineering knowledge; not always in PR.",
+    "allowed_values": "0/1 (No/Yes)"
+  },
+  {
+    "cluster": "Hardware & Subsystems",
+    "feature": "cooling_system_related",
+    "type": "Boolean",
+    "description": "Cooling system constraints or changes.",
+    "source": "auto_from_PR",
+    "decision_tree_question": "Is there any explicit request in the PR that implies cooling system related?",
+    "derivation_method": "Scan the PR for component/feature keywords; set to 1 if clearly mentioned.",
+    "allowed_values": "0/1 (No/Yes)"
+  },
+  {
+    "cluster": "Hardware & Subsystems",
+    "feature": "fuel_rail_related",
+    "type": "Boolean",
+    "description": "Fuel rail pressure or pump behavior modification.",
+    "source": "auto_from_PR",
+    "decision_tree_question": "Is there any explicit request in the PR that implies fuel rail related?",
+    "derivation_method": "Scan the PR for component/feature keywords; set to 1 if clearly mentioned.",
+    "allowed_values": "0/1 (No/Yes)"
+  },
+  {
+    "cluster": "Hardware & Subsystems",
+    "feature": "hardware_change",
+    "type": "Boolean",
+    "description": "Engine hardware modification involved.",
+    "source": "auto_from_PR",
+    "decision_tree_question": "Is there any explicit request in the PR that implies hardware change?",
+    "derivation_method": "Scan the PR for component/feature keywords; set to 1 if clearly mentioned.",
+    "allowed_values": "0/1 (No/Yes)"
+  },
+  {
+    "cluster": "Hardware & Subsystems",
+    "feature": "injectors_related",
+    "type": "Boolean",
+    "description": "Injector model or calibration changes.",
+    "source": "auto_from_PR",
+    "decision_tree_question": "Is there any explicit request in the PR that implies injectors related?",
+    "derivation_method": "Scan the PR for component/feature keywords; set to 1 if clearly mentioned.",
+    "allowed_values": "0/1 (No/Yes)"
+  },
+  {
+    "cluster": "Hardware & Subsystems",
+    "feature": "installation_change",
+    "type": "Boolean",
+    "description": "Packaging, brackets, installation constraints drive changes.",
+    "source": "auto_from_PR",
+    "decision_tree_question": "Is there any explicit request in the PR that implies installation change?",
+    "derivation_method": "Scan the PR for component/feature keywords; set to 1 if clearly mentioned.",
+    "allowed_values": "0/1 (No/Yes)"
+  },
+  {
+    "cluster": "Hardware & Subsystems",
+    "feature": "intake_air_path_related",
+    "type": "Boolean",
+    "description": "Air path/piping/intake modifications.",
+    "source": "auto_from_PR",
+    "decision_tree_question": "Is there any explicit request in the PR that implies intake air path related?",
+    "derivation_method": "Scan the PR for component/feature keywords; set to 1 if clearly mentioned.",
+    "allowed_values": "0/1 (No/Yes)"
+  },
+  {
+    "cluster": "Hardware & Subsystems",
+    "feature": "mounting_brackets_related",
+    "type": "Boolean",
+    "description": "Engine bracket / mounting modifications.",
+    "source": "auto_from_PR",
+    "decision_tree_question": "Is there any explicit request in the PR that implies mounting brackets related?",
+    "derivation_method": "Scan the PR for component/feature keywords; set to 1 if clearly mentioned.",
+    "allowed_values": "0/1 (No/Yes)"
+  },
+  {
+    "cluster": "Hardware & Subsystems",
+    "feature": "oil_system_related",
+    "type": "Boolean",
+    "description": "Oil/lubrication system affected.",
+    "source": "auto_from_PR",
+    "decision_tree_question": "Is there any explicit request in the PR that implies oil system related?",
+    "derivation_method": "Scan the PR for component/feature keywords; set to 1 if clearly mentioned.",
+    "allowed_values": "0/1 (No/Yes)"
+  },
+  {
+    "cluster": "Hardware & Subsystems",
+    "feature": "turbo_related",
+    "type": "Boolean",
+    "description": "Turbocharger rematching or resizing required.",
+    "source": "auto_from_PR",
+    "decision_tree_question": "Is there any explicit request in the PR that implies turbo related?",
+    "derivation_method": "Scan the PR for component/feature keywords; set to 1 if clearly mentioned.",
+    "allowed_values": "0/1 (No/Yes)"
+  },
+  {
+    "cluster": "Sizing",
+    "feature": "sizing_PE_base_powertrain",
+    "type": "Categorical",
+    "description": "Validation effort (X small, Small, Medium, Large, Full).",
+    "source": "manual_input",
+    "decision_tree_question": "Set the validation effort for sizing_PE_base_powertrain (X small / Small / Medium / Large / Full).",
+    "derivation_method": "Not derived from PR text; must be decided by PE/program owner.",
+    "allowed_values": "X small; Small; Medium; Large; Full"
+  },
+  {
+    "cluster": "Sizing",
+    "feature": "sizing_PE_installation_application_homologation",
+    "type": "Categorical",
+    "description": "Validation effort (X small, Small, Medium, Large, Full).",
+    "source": "manual_input",
+    "decision_tree_question": "Set the validation effort for sizing_PE_installation_application_homologation (X small / Small / Medium / Large / Full).",
+    "derivation_method": "Not derived from PR text; must be decided by PE/program owner.",
+    "allowed_values": "X small; Small; Medium; Large; Full"
+  },
+  {
+    "cluster": "Sizing",
+    "feature": "sizing_PE_system_assembly",
+    "type": "Categorical",
+    "description": "Validation effort (X small, Small, Medium, Large, Full).",
+    "source": "manual_input",
+    "decision_tree_question": "Set the validation effort for sizing_PE_system_assembly (X small / Small / Medium / Large / Full).",
+    "derivation_method": "Not derived from PR text; must be decided by PE/program owner.",
+    "allowed_values": "X small; Small; Medium; Large; Full"
+  },
+  {
+    "cluster": "Sizing",
+    "feature": "sizing_program",
+    "type": "Categorical",
+    "description": "Validation effort (X small, Small, Medium, Large, Full).",
+    "source": "manual_input",
+    "decision_tree_question": "Set the validation effort for sizing_program (X small / Small / Medium / Large / Full).",
+    "derivation_method": "Not derived from PR text; must be decided by PE/program owner.",
+    "allowed_values": "X small; Small; Medium; Large; Full"
+  },
+  {
+    "cluster": "Software & Controls",
+    "feature": "baseline_dataset_available",
+    "type": "Boolean",
+    "description": "Existing calibration dataset available for reuse.",
+    "source": "auto_from_PR",
+    "decision_tree_question": "Is there a reusable baseline (dataset available) available?",
+    "derivation_method": "Check internal databases / engineering knowledge; not always in PR.",
+    "allowed_values": "0/1 (No/Yes)"
+  },
+  {
+    "cluster": "Software & Controls",
+    "feature": "electrical_EE_change",
+    "type": "Boolean",
+    "description": "Wiring, harness, sensors impacting controls.",
+    "source": "auto_from_PR",
+    "decision_tree_question": "Is there any explicit request in the PR that implies electrical EE change?",
+    "derivation_method": "Scan the PR for component/feature keywords; set to 1 if clearly mentioned.",
+    "allowed_values": "0/1 (No/Yes)"
+  },
+  {
+    "cluster": "Software & Controls",
+    "feature": "requires_SW_release_documentation",
+    "type": "Boolean",
+    "description": "Software release documentation required.",
+    "source": "auto_from_PR",
+    "decision_tree_question": "Does the PR require SW release documentation?",
+    "derivation_method": "Check PR for explicit mention of required tests/documents; set to 1 if required.",
+    "allowed_values": "0/1 (No/Yes)"
+  },
+  {
+    "cluster": "Software & Controls",
+    "feature": "software_VCU_change",
+    "type": "Boolean",
+    "description": "VCU/ECU software or logic update required.",
+    "source": "auto_from_PR",
+    "decision_tree_question": "Is there any explicit request in the PR that implies software VCU change?",
+    "derivation_method": "Scan the PR for component/feature keywords; set to 1 if clearly mentioned.",
+    "allowed_values": "0/1 (No/Yes)"
+  },
+  {
+    "cluster": "Testing",
+    "feature": "estimated_engine_bench_hours",
+    "type": "Numeric",
+    "description": "Estimated bench test hours (if provided).",
+    "source": "auto_from_PR",
+    "decision_tree_question": "Can estimated engine bench hours be inferred from the PR?",
+    "derivation_method": "Use domain-specific keywords and engineering judgement on the PR text.",
+    "allowed_values": "Numeric value"
+  },
+  {
+    "cluster": "Testing",
+    "feature": "estimated_vehicle_test_hours",
+    "type": "Numeric",
+    "description": "Estimated vehicle test hours (if provided).",
+    "source": "auto_from_PR",
+    "decision_tree_question": "Can estimated vehicle test hours be inferred from the PR?",
+    "derivation_method": "Use domain-specific keywords and engineering judgement on the PR text.",
+    "allowed_values": "Numeric value"
+  },
+  {
+    "cluster": "Testing",
+    "feature": "requires_engine_bench_test",
+    "type": "Boolean",
+    "description": "Engine test bench activity required.",
+    "source": "auto_from_PR",
+    "decision_tree_question": "Does the PR require engine bench test?",
+    "derivation_method": "Check PR for explicit mention of required tests/documents; set to 1 if required.",
+    "allowed_values": "0/1 (No/Yes)"
+  },
+  {
+    "cluster": "Testing",
+    "feature": "requires_field_test",
+    "type": "Boolean",
+    "description": "Field validation required.",
+    "source": "auto_from_PR",
+    "decision_tree_question": "Does the PR require field test?",
+    "derivation_method": "Check PR for explicit mention of required tests/documents; set to 1 if required.",
+    "allowed_values": "0/1 (No/Yes)"
+  },
+  {
+    "cluster": "Testing",
+    "feature": "requires_vehicle_test",
+    "type": "Boolean",
+    "description": "Vehicle-level testing required.",
+    "source": "auto_from_PR",
+    "decision_tree_question": "Does the PR require vehicle test?",
+    "derivation_method": "Check PR for explicit mention of required tests/documents; set to 1 if required.",
+    "allowed_values": "0/1 (No/Yes)"
+  }
+]

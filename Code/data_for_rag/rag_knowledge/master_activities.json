@@ -1,0 +1,326 @@
+[
+  {
+    "title": null,
+    "main_activity": "Main Activities",
+    "sub_activity": "Sub-activities",
+    "project_booklet": "Project booklet"
+  },
+  {
+    "title": "A. DESIGN & PROJECT MANAGEMENT",
+    "main_activity": "A.1 PM : Engine/ATS project management",
+    "sub_activity": "Project management",
+    "project_booklet": "Project sizing classification; Project tracking"
+  },
+  {
+    "title": "A. DESIGN & PROJECT MANAGEMENT",
+    "main_activity": "A.1 PM : Engine/ATS project management",
+    "sub_activity": "Project Planning/ Budgeting/staffing /Activities tracking",
+    "project_booklet": "Project tracking, EPP/Technical documentation boundle/QG's release plan/CAN specs/Wiring schematic"
+  },
+  {
+    "title": "A. DESIGN & PROJECT MANAGEMENT",
+    "main_activity": "A.1 PM : Engine/ATS project management",
+    "sub_activity": "Milestones Readiness",
+    "project_booklet": "Engine readines for Customer GPD Milestones (DA,DC,LC,OKTS)"
+  },
+  {
+    "title": "A. DESIGN & PROJECT MANAGEMENT",
+    "main_activity": "A.2 Design and Virtual validation: Engine Base",
+    "sub_activity": "Beta/Gamma / Production DMU release",
+    "project_booklet": "Digital Mock Up approval (Beta/Gamma/Production)"
+  },
+  {
+    "title": "A. DESIGN & PROJECT MANAGEMENT",
+    "main_activity": "A.2 Design and Virtual validation: Engine Base",
+    "sub_activity": "EBOM/dataset release in E-matrix",
+    "project_booklet": "EBOM release / E Matrix dataset release"
+  },
+  {
+    "title": "A. DESIGN & PROJECT MANAGEMENT",
+    "main_activity": "A.2 Design and Virtual validation: Engine Base",
+    "sub_activity": "Drawing/Model Release for specific new and modified components",
+    "project_booklet": "2D engine drawing with interface sizes,label schematic"
+  },
+  {
+    "title": "A. DESIGN & PROJECT MANAGEMENT",
+    "main_activity": "A.2 Design and Virtual validation: Engine Base",
+    "sub_activity": "Subsystem Expert for Base Design Activity",
+    "project_booklet": "EPP  (MR0-beta-Gamma-Production)"
+  },
+  {
+    "title": "A. DESIGN & PROJECT MANAGEMENT",
+    "main_activity": "A.2 Design and Virtual validation: Engine Base",
+    "sub_activity": "DFMEA/SFMEA/IFMEA",
+    "project_booklet": "FMEA plan/ tracking"
+  },
+  {
+    "title": "A. DESIGN & PROJECT MANAGEMENT",
+    "main_activity": "A.2 Design and Virtual validation: Engine Base",
+    "sub_activity": "New components cost evaluation support",
+    "project_booklet": null
+  },
+  {
+    "title": "A. DESIGN & PROJECT MANAGEMENT",
+    "main_activity": "A.2 Design and Virtual validation: Engine Base",
+    "sub_activity": "FEA on engine new components",
+    "project_booklet": null
+  },
+  {
+    "title": "A. DESIGN & PROJECT MANAGEMENT",
+    "main_activity": "A.2 Design and Virtual validation: Engine Base",
+    "sub_activity": "Tech. Docs (SOR, etc.)",
+    "project_booklet": null
+  },
+  {
+    "title": "A. DESIGN & PROJECT MANAGEMENT",
+    "main_activity": "A.3 Design and Virtual validation: ATS",
+    "sub_activity": "Subsystem Expert for Base Design Activity",
+    "project_booklet": "ATS Installation guidelines;ATS Installation checklist  approval;"
+  },
+  {
+    "title": "A. DESIGN & PROJECT MANAGEMENT",
+    "main_activity": "A.3 Design and Virtual validation: ATS",
+    "sub_activity": "Base Technologies for ATS simulation",
+    "project_booklet": "Supplier_B installation checklist"
+  },
+  {
+    "title": "A. DESIGN & PROJECT MANAGEMENT",
+    "main_activity": "A.3 Design and Virtual validation: ATS",
+    "sub_activity": "EBOM release in E-matrix (ATS kit)",
+    "project_booklet": "ATS Visual E- BOM signed"
+  },
+  {
+    "title": "A. DESIGN & PROJECT MANAGEMENT",
+    "main_activity": "A.3 Design and Virtual validation: ATS",
+    "sub_activity": "IFMEA/SFMEA",
+    "project_booklet": "FMEA plan/ tracking"
+  },
+  {
+    "title": "A. DESIGN & PROJECT MANAGEMENT",
+    "main_activity": "A.3 Design and Virtual validation: ATS",
+    "sub_activity": "New components evaluation support",
+    "project_booklet": null
+  },
+  {
+    "title": "A. DESIGN & PROJECT MANAGEMENT",
+    "main_activity": "A.3 Design and Virtual validation: ATS",
+    "sub_activity": "ATS CFD result analysis",
+    "project_booklet": null
+  },
+  {
+    "title": "A. DESIGN & PROJECT MANAGEMENT",
+    "main_activity": "A.3 Design and Virtual validation: ATS",
+    "sub_activity": "ATS SOR",
+    "project_booklet": "ATS SOR availability as a part of canning product card"
+  },
+  {
+    "title": "A. DESIGN & PROJECT MANAGEMENT",
+    "main_activity": "A.4 Engine Management System (EMS)",
+    "sub_activity": "System Diagram Scheme",
+    "project_booklet": "Scheme availability"
+  },
+  {
+    "title": "A. DESIGN & PROJECT MANAGEMENT",
+    "main_activity": "A.4 Engine Management System (EMS)",
+    "sub_activity": "SOR/DFMEA/IFMEA/SFMEA",
+    "project_booklet": null
+  },
+  {
+    "title": "A. DESIGN & PROJECT MANAGEMENT",
+    "main_activity": "A.4 Engine Management System (EMS)",
+    "sub_activity": "Support for application release",
+    "project_booklet": "SW roadmap"
+  },
+  {
+    "title": "A. DESIGN & PROJECT MANAGEMENT",
+    "main_activity": "B.1 Bench Calibration",
+    "sub_activity": "Full load Calibration (Ratings) : Calibration per each power rating",
+    "project_booklet": "QG release  plan/ tracking"
+  },
+  {
+    "title": "A. DESIGN & PROJECT MANAGEMENT",
+    "main_activity": "B.1 Bench Calibration",
+    "sub_activity": "ATS Functional Calibration",
+    "project_booklet": "Application checklist and summary at QG's"
+  },
+  {
+    "title": "A. DESIGN & PROJECT MANAGEMENT",
+    "main_activity": "B.1 Bench Calibration",
+    "sub_activity": "Engine Functional Calibrations",
+    "project_booklet": null
+  },
+  {
+    "title": "A. DESIGN & PROJECT MANAGEMENT",
+    "main_activity": "B.1 Bench Calibration",
+    "sub_activity": "Engine Mapping per each engine operative mode (DPF regen, Item HI / LOW, etc.) with Fuel Consumption & TCO",
+    "project_booklet": null
+  },
+  {
+    "title": "A. DESIGN & PROJECT MANAGEMENT",
+    "main_activity": "B.1 Bench Calibration",
+    "sub_activity": "Emission Cycles Demonstration per each market / emission legislation",
+    "project_booklet": null
+  },
+  {
+    "title": "A. DESIGN & PROJECT MANAGEMENT",
+    "main_activity": "B.1 Bench Calibration",
+    "sub_activity": "OBD Calibration & Verification: All Electrical and Functional monitoring enabled, verified at bench + 'Preliminary diagnostic services implementation",
+    "project_booklet": null
+  },
+  {
+    "title": "A. DESIGN & PROJECT MANAGEMENT",
+    "main_activity": "B.2 Endurance - Engine & ATS",
+    "sub_activity": "All tests related to Endurance Validation of Engine & ATS",
+    "project_booklet": "Endurance Validation of Engine & ATS"
+  },
+  {
+    "title": "A. DESIGN & PROJECT MANAGEMENT",
+    "main_activity": "B.2 Endurance - Engine & ATS",
+    "sub_activity": "Laboratories (GML, others)",
+    "project_booklet": "Measurement and analysis report"
+  },
+  {
+    "title": "A. DESIGN & PROJECT MANAGEMENT",
+    "main_activity": "B.3 Material",
+    "sub_activity": "Alpha / Beta  / Gamma  Base Engine",
+    "project_booklet": "Alpha / Beta  / Gamma  Base Engine"
+  },
+  {
+    "title": "A. DESIGN & PROJECT MANAGEMENT",
+    "main_activity": "B.3 Material",
+    "sub_activity": "ATS kit",
+    "project_booklet": "ATS kit"
+  },
+  {
+    "title": "A. DESIGN & PROJECT MANAGEMENT",
+    "main_activity": "B.3 Material",
+    "sub_activity": "Specific Materials /spare parts",
+    "project_booklet": "Specific Materials /spare parts"
+  },
+  {
+    "title": "A. DESIGN & PROJECT MANAGEMENT",
+    "main_activity": "B.3 Material",
+    "sub_activity": "VT for new components",
+    "project_booklet": "VT for new components"
+  },
+  {
+    "title": "A. DESIGN & PROJECT MANAGEMENT",
+    "main_activity": "C.Vehicle Functions and Driveability Calibration & Application Sign off",
+    "sub_activity": "Support first firing, HMI, engine/ATS in-vehicle calibration, E-Visco fan calibration, OBD",
+    "project_booklet": "Application matrix plan"
+  },
+  {
+    "title": "A. DESIGN & PROJECT MANAGEMENT",
+    "main_activity": "C.Vehicle Functions and Driveability Calibration & Application Sign off",
+    "sub_activity": "Application Check-list (Vehicle Installation & Functional Tests)",
+    "project_booklet": "QG release  plan/ tracking"
+  },
+  {
+    "title": "A. DESIGN & PROJECT MANAGEMENT",
+    "main_activity": "C.Vehicle Functions and Driveability Calibration & Application Sign off",
+    "sub_activity": "QG Release",
+    "project_booklet": "Sign off document availibity"
+  },
+  {
+    "title": "A. DESIGN & PROJECT MANAGEMENT",
+    "main_activity": "C.Vehicle Functions and Driveability Calibration & Application Sign off",
+    "sub_activity": "Field Validation",
+    "project_booklet": "Fleet report standard to be agreed"
+  },
+  {
+    "title": "A. DESIGN & PROJECT MANAGEMENT",
+    "main_activity": "C.Vehicle Functions and Driveability Calibration & Application Sign off",
+    "sub_activity": "Laboratories (fluid analysis, weight campaign, others)",
+    "project_booklet": "Measurement and analysis report"
+  },
+  {
+    "title": "A. DESIGN & PROJECT MANAGEMENT",
+    "main_activity": "C.Vehicle Functions and Driveability Calibration & Application Sign off",
+    "sub_activity": "Sign-off Reporting",
+    "project_booklet": "Application checklist and summary at QG's"
+  },
+  {
+    "title": "A. DESIGN & PROJECT MANAGEMENT",
+    "main_activity": "C.Vehicle Functions and Driveability Calibration & Application Sign off",
+    "sub_activity": "Details of support on site/remote related to each activity",
+    "project_booklet": "Application working model - NEW included in CPS"
+  },
+  {
+    "title": "A. DESIGN & PROJECT MANAGEMENT",
+    "main_activity": "D.1 Certification Cost",
+    "sub_activity": "Detailed certification test plan and location",
+    "project_booklet": "Certification test tracking \nresults submitted to agencies - Check with TC info already provided"
+  },
+  {
+    "title": "A. DESIGN & PROJECT MANAGEMENT",
+    "main_activity": "D.1 Certification Cost",
+    "sub_activity": "Detailed certification submission and paperwork",
+    "project_booklet": "Final certification availability"
+  },
+  {
+    "title": "A. DESIGN & PROJECT MANAGEMENT",
+    "main_activity": "D.1 Certification Cost",
+    "sub_activity": "Detailed OBD activity plan and execution",
+    "project_booklet": "Summary of diagnosis done + final results"
+  },
+  {
+    "title": "A. DESIGN & PROJECT MANAGEMENT",
+    "main_activity": "D.2 DF test",
+    "sub_activity": "DF execution on certified test bench",
+    "project_booklet": "DF tracking"
+  },
+  {
+    "title": "A. DESIGN & PROJECT MANAGEMENT",
+    "main_activity": "D.3 PEMS test",
+    "sub_activity": "Details of number of test with relative costs",
+    "project_booklet": "Report of activity performed"
+  },
+  {
+    "title": "A. DESIGN & PROJECT MANAGEMENT",
+    "main_activity": "E. Fees w/ split by Supplier",
+    "sub_activity": "Details of activities @third party supplier - Cornaglia",
+    "project_booklet": "Third party supplier release report"
+  },
+  {
+    "title": "A. DESIGN & PROJECT MANAGEMENT",
+    "main_activity": "E. Fees w/ split by Supplier",
+    "sub_activity": "Details of activities @third party supplier - Nuova simplast",
+    "project_booklet": "High hour return components report"
+  },
+  {
+    "title": "A. DESIGN & PROJECT MANAGEMENT",
+    "main_activity": "F.1 Advanced troubleshooting",
+    "sub_activity": "Advanced troubleshooting implementation",
+    "project_booklet": null
+  },
+  {
+    "title": "A. DESIGN & PROJECT MANAGEMENT",
+    "main_activity": "F.2. Technical Documents and Training",
+    "sub_activity": "Technical documents (manuals)",
+    "project_booklet": null
+  },
+  {
+    "title": "A. DESIGN & PROJECT MANAGEMENT",
+    "main_activity": "F.2. Technical Documents and Training",
+    "sub_activity": "Technical training",
+    "project_booklet": null
+  },
+  {
+    "title": "A. DESIGN & PROJECT MANAGEMENT",
+    "main_activity": "G. OTHERS",
+    "sub_activity": "Travels",
+    "project_booklet": null
+  },
+  {
+    "title": "A. DESIGN & PROJECT MANAGEMENT",
+    "main_activity": "G. OTHERS",
+    "sub_activity": "Datalogger",
+    "project_booklet": null
+  },
+  {
+    "title": "A. DESIGN & PROJECT MANAGEMENT",
+    "main_activity": "G. OTHERS",
+    "sub_activity": "Intellectual property",
+    "project_booklet": null
+  }
+]
